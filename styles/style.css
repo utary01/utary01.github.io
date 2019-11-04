@@ -38,16 +38,23 @@ body {
     width: 100%;
 }
 
-.container-upper {
-    margin : 0 auto;
-    height : 25px;
-    width  : 100%;
-    text-align: center;
+.container-contact {
+    margin: 10px auto;
+    overflow: center;
+    width: 50%;
 }
 
-.container h5 {
+.container-upper {
+    margin : 0;
+    height : 30px;
+    width  : 100%;
     text-align: center;
-    font-weight: bold;
+    text-transform: bold;
+}
+
+.container h4 {
+    text-align: left;
+    text-transform: bold;
 }
     
 
@@ -169,6 +176,8 @@ h6 {
 .main-home-one .box-isi
 .main-home-two .box-isi {
     height: 140px;
+    text-align: left;
+    display: inline-block;
 }
 /* End Main */
 
@@ -185,6 +194,13 @@ h6 {
 .box-heading h4 {
     font-size: 14px;
     margin: 0;
+    text-align: left;
+}
+
+.box-isi h4 {
+    font-size: 16px;
+    margin: 0;
+    text-align: left;
 }
 
 .box-isi {
@@ -192,7 +208,6 @@ h6 {
     border-top: 0;
     margin: 0;
     padding: 10px 20px;
-
 }
 /* End Box */
 
@@ -226,8 +241,13 @@ h6 {
 
 .menu-sekunder li a
 .menu-sekunder li p {
+    color: #333333;
     font-size: 15px;
+    text-decoration: none;
 }
+
+
+
 
 .menu-sekunder-one,
 .menu-sekunder-two,
@@ -508,7 +528,3 @@ h6 {
 }
 
 /* End Promo New Arrival */
-
-/* Mobile Responsive */
-@media
-/* MObile Responsive */
